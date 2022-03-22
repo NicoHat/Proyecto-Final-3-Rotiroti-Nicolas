@@ -1,0 +1,221 @@
+/* Vista Index */
+@media only screen and (min-width: 1200px) {
+    .containerIndex {
+        display: grid;
+        row-gap: 5px;
+        grid-template-areas:
+        "navIndex navIndex navIndex"
+        "mainIndex mainIndex mainIndex"
+        "section1 section2 section3"
+        "footerIndex footerIndex footerIndex";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+    .navIndex {
+        grid-area: navIndex;
+    }
+    .mainIndex {
+        grid-area: mainIndex;
+    }
+    .section1 {
+        grid-area: section1;
+    }
+    .section2 {
+        grid-area: section2;
+    }
+    .section3 {
+        grid-area: section3;
+    }
+    .footerIndex {
+        grid-area: footerIndex;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .containerIndex {
+        display: grid;
+        grid-template-areas:
+        "navIndex"
+        "mainIndex"
+        "section1"
+        "section1"
+        "section2"
+        "section3"
+        "footerIndex";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto;
+    }
+    .navIndex {
+        grid-area: navIndex;
+    }
+    .mainIndex {
+        grid-area: mainIndex;
+    }
+    .section1 {
+        grid-area: section1;
+    }
+    .section2 {
+        grid-area: section2;
+    }
+    .section3 {
+        grid-area: section3;
+    }
+    .footerIndex {
+        grid-area: footerIndex;
+    }  
+}
+/* Vista Menu */
+@media only screen and (min-width: 1200px) {
+    .containerMenu {
+        display: grid;
+        row-gap: 5px;
+        grid-template-areas:
+        "navMenu navMenu navMenu"
+        "mainMenu mainMenu mainMenu"
+        "content1-menu content2-menu content3-menu"
+        "footerMenu footerMenu footerMenu";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+    .navMenu {
+        grid-area: navMenu;
+    }
+    .mainMenu {
+        grid-area: mainMenu;
+    }
+    .content1-menu {
+        grid-area: content1-menu;
+    }
+    .content2-menu {
+        grid-area: content2-menu;
+    }
+    .content3-menu {
+        grid-area: content3-menu;
+    }
+    .footerMenu {
+        grid-area: footerMenu;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .containerMenu {
+        display: grid;
+        grid-template-areas:
+        "navMenu"
+        "mainMenu"
+        "content1-menu"
+        "content2-menu"
+        "content3-menu"
+        "footerMenu";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+    .navMenu {
+        grid-area: navMenu;
+    }
+    .mainMenu {
+        grid-area: mainMenu;
+    }
+    .content1-menu {
+        grid-area: content1-menu;
+    }
+    .content2-menu {
+        grid-area: content2-menu;
+    }
+    .content3-menu {
+        grid-area: content3-menu;
+    }
+    .footerMenu {
+        grid-area: footerMenu;
+        text-align: left;
+    } 
+}
+/*Vista Locales*/
+@media only screen and (min-width: 1200px) {
+    .containerLocales {
+        display: grid;
+        row-gap: 5px;
+        grid-template-areas:
+        "navLocales navLocales"
+        "mainLocales mainLocales"
+        "section1Locales section1Locales"
+        "section2Locales section3Locales"
+        "footerLocales footerLocales";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+    .navLocales {
+        grid-area: navLocales;
+    }
+    .mainLocales {
+        grid-area: mainLocales;
+    }
+    .section1Locales {
+        grid-area: section1Locales;
+    }
+    .section2Locales {
+        grid-area: section2Locales;
+        justify-self: center;
+    }
+    .section3Locales {
+        grid-area: section3Locales;
+        justify-self: center;
+    }
+    .footerLocales {
+        grid-area: footerLocales;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .containerLocales {
+        display: grid;
+        grid-template-areas:
+        "navLocales"
+        "mainLocales"
+        "section1Locales"
+        "section2Locales"
+        "section3Locales"
+        "footerLocales";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+    .navLocales {
+        grid-area: navLocales;
+    }
+    .mainLocales {
+        grid-area: mainLocales;
+    }
+    .section1Locales {
+        grid-area: section1Locales;
+    }
+    .section2Locales {
+        grid-area: section2Locales;
+    }
+    .section3Locales {
+        grid-area: section3Locales;
+    }
+    .footerLocales {
+        grid-area: footerLocales;
+    } 
+}
+/*Vista Contacto */
+.containerContacto {
+    display: grid;
+    row-gap: 5px;
+    grid-template-areas:
+    "navContacto"
+    "mainContacto"
+    "formContacto"
+    "footerContacto";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+.navContacto {
+    grid-area: navContacto;
+}
+.mainContacto {
+    grid-area: mainContacto;
+}
+.formContacto {
+    grid-area: formContacto;
+}
+.footerContacto {
+    grid-area: footerContacto;
+}
